@@ -1,0 +1,229 @@
+/* ---------------- GLOBAL RESET ---------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: #eef3ff;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.custom-nav {
+    background: #004aad;
+    padding: 12px 0;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #ffdf5c !important;
+}
+
+/* ---------------- HERO SECTION ---------------- */
+.hero-section {
+    background: linear-gradient(90deg, #004aad, #007bff);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.20);
+}
+
+.hero-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subtext {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/* ---------------- MAIN SECTIONS ---------------- */
+.container {
+    max-width: 950px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.section-heading {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ---------------- IMAGE ---------------- */
+.im{
+    display: flex;
+    gap: 40%;
+}
+img {
+    
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.20);
+}
+
+/* ---------------- BUTTONS ---------------- */
+.btn-custom {
+    background: #007bff;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background: #0056c5;
+    transform: translateY(-2px);
+}
+
+/* ---------------- API BOX ---------------- */
+#apiData {
+    margin-top: 15px;
+    background: #e9f1ff;
+    padding: 18px;
+    border-left: 5px solid #007bff;
+    border-radius: 8px;
+}
+
+/* ---------------- FORM ---------------- */
+form label {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #1e7a33;
+}
+
+#formMessage {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+
+
+/* contact style */
+
+/* ---------------- CONTACT PAGE ---------------- */
+.contact-section {
+    background: white;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-section label {
+    font-weight: 600;
+    margin-top: 15px;
+    display: block;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    font-size: 16px;
+}
+
+.contact-section textarea {
+    resize: none;
+    size: 100%;
+}
+
+.contact-section button {
+    margin-top: 15px;
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-section button:hover {
+    background: #0056c5;
+    transform: translateY(-2px);
+}
+
+#contactMessage {
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    color: green;
+}
+
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 600px) {
+    .hero-section h1 {
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

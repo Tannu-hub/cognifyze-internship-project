@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Internship Project - Frontend</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- 🌟 NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cognifyz Internship</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+             data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#html">HTML Task</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#api">API</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#form">Form</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 🌟 Header Section -->
+    <header class="hero-section">
+        <h1>Welcome to My Internship Project</h1>
+        <p class="subtext">Created by <b>Tannu Kumari</b> | Front-End Development Internship</p>
+    </header>
+
+    <!-- 🌟 Main Container -->
+    <div class="container">
+
+        <!-- ================= SECTION 1 ================= -->
+        <section id="html">
+            <h2 class="section-heading">HTML Structure Task</h2>
+
+            <p>
+                This page demonstrates all the tasks from Level 1 to Level 4 of the Cognifyz 
+                Front-End Development Internship. The purpose is to enhance HTML, CSS, and JavaScript skills.
+            </p>
+
+            <p>
+                Below is an image included as required in the task:
+            </p>
+
+            <div class="im">
+                <img src="./img/img2.jpeg" alt="Cognifyz Image">
+                <img src="./img/img3.jpeg" alt="Cognifyz image 2">
+            </div>
+        </section>
+
+        <!-- ================= SECTION 2 : Inline CSS ================= -->
+        <section>
+            <h2 style="color: blue; background-color: lightgray; padding: 5px;">
+                This is an Inline Styled Heading
+            </h2>
+
+            <p style="font-size: 20px; color: green;">
+                This paragraph demonstrates inline CSS usage with custom styles.
+            </p>
+        </section>
+
+        <!-- ================= BACKGROUND BUTTON ================= -->
+        <section>
+            <h2 class="section-heading">Interactive Button</h2>
+            <button class="btn-custom" onclick="changeBackground()">Click to Change Background</button>
+        </section>
+
+        <!-- ================= API SECTION ================= -->
+        <section id="api">
+            <h2 class="section-heading">API Integration</h2>
+            <p>Click the button to fetch sample API data:</p>
+
+            <button class="btn-custom" onclick="loadData()">Load API Data</button>
+            <div id="apiData"></div>
+        </section>
+
+        <!-- ================= FORM SECTION ================= -->
+        <section id="form">
+            <h2 class="section-heading">Contact Form</h2>
+
+            <form id="contactForm">
+                <label>Name:</label>
+                <input type="text" id="name">
+
+                <label>Email:</label>
+                <input type="email" id="email">
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+
+        <!--===============CONTACT  SECTION=================================-->
+        <section id="contact">
+            <h2 class="section-heading">Get in Touch</h2>
+
+            <form id="contactPageForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="5" placeholder="Write your message" required></textarea>
+                <br><br>
+
+                <button type="submit" class="btn-custom">Send Message</button>
+            </form>
+
+            <p id="contactMessage"></p>
+        </section>
+
+        <!-- ================= BOOTSTRAP SECTION ================= -->
+        <section>
+            <h2 class="section-heading">Bootstrap Components</h2>
+
+            <div class="alert alert-primary">
+                This is a Bootstrap alert component!
+            </div>
+
+            <button class="btn btn-success">Bootstrap Button</button>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
